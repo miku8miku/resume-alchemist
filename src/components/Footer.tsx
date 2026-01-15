@@ -95,7 +95,7 @@ export function Footer() {
         </div>
 
         <div className="mt-6 pt-4 border-t border-border/30 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-muted-foreground">
-          <p>© 2026 简历炼金术 Resume Alchemist By Anarkh-Lee</p>
+          <p>© 2026 简历炼金术 Resume Alchemist By miku8miku</p>
           <p>Powered by AI ✨</p>
         </div>
       </div>

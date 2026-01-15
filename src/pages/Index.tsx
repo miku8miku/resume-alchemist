@@ -124,7 +124,7 @@ export default function Index() {
             
             {/* GitHub 链接 */}
             <a
-              href="https://github.com/Anarkh-Lee/resume-alchemist"
+              href="https://github.com/miku8miku/resume-alchemist"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-muted transition-colors"

@@ -4,6 +4,17 @@
 
 **简历炼金术** 是一款基于 AI 的智能简历优化工具，帮助求职者打造更具竞争力的简历。通过 AI 分析、毒舌点评、STAR 法则润色和职位匹配等功能，让你的简历脱颖而出。
 
+
+![网站预览](pic/image-20260115185810433.png)
+
+
+#阿里云ESA Pages #阿里云云工开物
+
+本项目是**阿里云 ESA (Edge Security Acceleration) 边缘计算创新大赛**的创意参赛作品。
+
+借助 **阿里云 ESA** 强大的边缘计算能力，我们将这个富交互的静态网站分发到全球节点，确保用户在世界任何角落都能体验到闪电般的加载速度。
+
+
 ### ✨ 核心功能
 
 | 功能 | 描述 |
@@ -107,132 +118,9 @@ npm run dev
 - ✅ 基于 IP 的速率限制（每分钟 10 次）
 - ✅ 模型名称服务器端配置，防止滥用
 
-### 📚 自部署教程
-
-详细的自部署教程请查看 **[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)**
-
 ---
 
-<a name="english"></a>
-## 🇺🇸 English
+## 声明
+“本项目由阿里云ESA提供加速、计算和保护”
+![Aliyun ESA Pages](pic/aliyunesapages.png)
 
-### 📖 Introduction
-
-**Resume Alchemy** is an AI-powered intelligent resume optimization tool that helps job seekers create more competitive resumes. With AI analysis, brutally honest reviews, STAR method polishing, and job matching features, make your resume stand out.
-
-### ✨ Core Features
-
-| Feature | Description |
-|---------|-------------|
-| 🔍 **Smart Diagnosis** | Comprehensive scoring + 6-dimension radar chart |
-| 🎯 **Roast Review** | Sharp and humorous HR perspective feedback |
-| ✍️ **AI Polish** | Professional polishing based on STAR method with streaming output |
-| 🎯 **Job Matching** | JD keyword comparison with optimization suggestions |
-| ⚡ **Quick Polish** | Fast single sentence optimization with 3 modes, streaming response |
-| 📄 **Resume Export** | Multiple templates, one-click PDF export |
-| 📁 **File Import** | Support Markdown/TXT file import, drag & drop upload |
-
-### 🏭 Supported Industries
-
-**Tech**
-- 💻 Tech/Programmer
-- 🖥️ DevOps/SRE
-- 🛡️ Cyber Security
-- 🐛 QA/Test Engineer
-
-**Product & Design**
-- 📦 Product Manager
-- 🎨 UI/UX Designer
-
-**Business & Functional**
-- 📊 Data Analyst
-- 📢 Marketing/Operations
-- 💼 Sales
-- 👥 Human Resources
-- 🧮 Accountant/Finance
-
-### 🛠️ Tech Stack
-
-- **Frontend**: React 18 + TypeScript + Vite
-- **Styling**: Tailwind CSS + shadcn/ui
-- **Animation**: Framer Motion
-- **Backend**: Supabase Edge Functions
-- **AI**: SiliconFlow API
-- **Database**: Supabase PostgreSQL
-
-### 🚀 Quick Start
-
-```bash
-# Clone the project
-git clone <your-repo-url>
-cd resume-alchemy
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-### 📁 Project Structure
-
-```
-├── src/
-│   ├── components/          # React components
-│   │   ├── ui/              # shadcn/ui base components
-│   │   ├── resume-templates/ # Resume templates
-│   │   └── ...
-│   ├── hooks/               # Custom Hooks
-│   ├── lib/                 # Utility functions
-│   ├── pages/               # Page components
-│   └── integrations/        # Third-party integrations
-├── supabase/
-│   ├── functions/           # Edge Functions
-│   │   └── resume-ai/       # AI processing function
-│   └── config.toml          # Supabase config
-├── docs/
-│   └── DEPLOYMENT.md        # Self-deployment guide
-└── public/                  # Static assets
-```
-
-### 🔐 Environment Variables
-
-The project uses Supabase Secrets for sensitive configurations:
-
-| Variable | Description |
-|----------|-------------|
-| `SILICONFLOW_API_KEY` | SiliconFlow API key |
-| `SILICONFLOW_MODEL` | AI model name (e.g., `Qwen/Qwen3-8B`) |
-
-### 📝 How to Use
-
-1. **Select Industry** - Choose your target profession
-2. **Upload Resume** - Paste your resume content
-3. **View Analysis** - AI provides scoring, reviews, and suggestions
-4. **Polish Resume** - Use AI to optimize content
-5. **Job Matching** - Input JD for matching analysis
-6. **Export Resume** - Choose template and export to PDF
-
-### 🔒 Security Features
-
-- ✅ API keys stored server-side, invisible to frontend
-- ✅ IP-based rate limiting (10 requests per minute)
-- ✅ Model name configured server-side to prevent abuse
-
-### 📚 Self-Deployment Guide
-
-For detailed self-deployment instructions, see **[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)**
-
----
-
-## 📄 License
-
-MIT License
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
-
-For questions or suggestions, please open an issue.
