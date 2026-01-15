@@ -78,7 +78,7 @@ export function Footer() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-4 text-muted-foreground"
           >
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <TrendingUp className="w-4 h-4 text-primary" />
               <span className="text-sm">
                 一共已助力 <span className="text-primary font-semibold">{stats.totalCount.toLocaleString()}</span> 位求职者
@@ -90,7 +90,7 @@ export function Footer() {
               <span className="text-sm">
                 今日已助力 <span className="text-primary font-semibold">{stats.todayCount}</span> 位求职者
               </span>
-            </div>
+            </div> */}
           </motion.div>
         </div>
 
